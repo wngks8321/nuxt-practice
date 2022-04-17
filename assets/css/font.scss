@@ -1,0 +1,15 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanssc.css);
+
+* {
+  font-family: 'notosanskr', sans-serif;
+}
+
+:lang(ja) {
+  font-family: 'notosansjp', sans-serif;
+}
+
+:lang(zh-Hans) {
+  font-family: 'notosanssc', sans-serif;
+}
