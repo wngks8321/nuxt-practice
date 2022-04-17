@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/node,vue,nuxtjs
-# Edit at https://www.toptal.com/developers/gitignore?templates=node,vue,nuxtjs
+# Created by https://www.toptal.com/developers/gitignore/api/vue,nuxtjs,node,yarn
+# Edit at https://www.toptal.com/developers/gitignore?templates=vue,nuxtjs,node,yarn
 
 ### Node ###
 # Logs
@@ -157,5 +157,21 @@ docs/_book
 # TODO: where does this rule come from?
 test/
 
-# End of https://www.toptal.com/developers/gitignore/api/node,vue,nuxtjs
-node_modules
+### yarn ###
+# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+
+.yarn/*
+!.yarn/releases
+!.yarn/patches
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# if you are NOT using Zero-installs, then:
+# comment the following lines
+!.yarn/cache
+
+# and uncomment the following lines
+# .pnp.*
+
+# End of https://www.toptal.com/developers/gitignore/api/vue,nuxtjs,node,yarn
