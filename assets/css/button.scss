@@ -1,17 +1,17 @@
-.btn_small {
-  width: 100px;
+.btn_common {
   height: 40px;
-  background: #134615;
-}
+  background: #6667AB;
+  color: #abaa66;
 
-.btn_medium {
-  width: 120px;
-  height: 40px;
-  background: #134615;
-}
+  &.btn_small {
+    width: 100px;  
+  }
 
-.btn_large {
-  width: 140px;
-  height: 40px;
-  background: #134615;
+  &.btn_medium {
+    width: 120px;  
+  }
+
+  &.btn_large {
+    width: 140px;  
+  }
 }
