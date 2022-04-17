@@ -1,4 +1,4 @@
-# testtest
+# nuxt-practice
 
 ## Build Setup
 
